@@ -5,7 +5,24 @@
         "ProjectId": "72d23179-dc44-4051-851c-254e7e250620",
         "ProjectName": "TestProject1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "63b7fb51-35fa-43f1-b493-7b29b3577749",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "7faf10c4-309b-4262-b181-564c81cf0338",
+                "DatabaseAliasName": "QA7",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7614, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/demo3",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -18,7 +35,17 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "7faf10c4-309b-4262-b181-564c81cf0338",
+              "DatabaseAliasName": "QA7",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOjc+pAR1ica9eSZte0yjMPC239Tx9VrpiJ7Zh0eO5OAVw2y+zgI9TswRUv+LybSIgxbfZvAmgnSLL8BuPCIPSwY5L+311n7iE+CF+1UrEgZQ==",
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "ea8yGmw+Ej86bcCmU276W0MIxBY+HgVL69KchuT36x+2OvFcsTg2ga4857NYiiLF"
+              }
+            }
+          ]
         }
       ]
     }
