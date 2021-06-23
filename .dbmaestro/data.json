@@ -1,0 +1,26 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "72d23179-dc44-4051-851c-254e7e250620",
+        "ProjectName": "TestProject1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "LocalDirectory": "C:\\dev\\git\\Demo3"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ]
+}
